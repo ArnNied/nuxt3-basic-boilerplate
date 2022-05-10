@@ -12,7 +12,7 @@
   "scripts": {
     "es": "eslint . --ext .vue,.js,.ts",
     "tc": "nuxi typecheck",
-    "estc": "yarn es; yarn tc",
+    "estc": "yarn es --fix; yarn tc",
     "dev": "yarn es --fix && yarn tc && nuxi dev",
     "build": "nuxi build",
     "preview": "nuxi preview",
